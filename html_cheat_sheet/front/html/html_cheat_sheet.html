@@ -4,38 +4,133 @@
     <head>
         <title>HTML Cheat Sheet</title>
     </head>
-    <body style="background-color: aquamarine;">
+    <body style="background-color: white;">
         <h1>
             Construccion de software
             <!-- Comentarios con command + K + C -->
             <!-- Quitar comentarios con command + K + U -->
         </h1>
-        <h2>subtitulo</h2>
-        <h3>Sub subtitulo</h3>
-        <p>Hello World!</p>
+
+        <h2>Headers</h2>
+        <h3>Identificadores clave para la estructura de la pagina web y establecer una herarquia.</h3>
+        <h1>Header nivel 1</h1>
+        <h2>Header Nivel 2</h2>
+        <h3>Header Nivel 3</h3>
+        <h4>Header Nivel 4</h4>
+        <h5>Header Nivel 5</h5>
+        <h6>Header Nivel 6</h6>
+
+        <h2>Parrafos</h2>
+        <p>Parrafos para el contenido principal de la pagina.</p>
 
         <div>
-            <h1>Titulo</h1>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, exercitationem in et aliquam suscipit neque deleniti veritatis at sed quaerat, nobis nostrum cupiditate? Ipsam, temporibus neque quas aut vel placeat.
-            </p>
-            <h2>Listas sin orden</h2>
-            <ul>
-                <li>Tu mama es hombre</li>
-                <li>Tu mama es hombre</li>
-            </ul>
-            <ol>
-                <li>Tu mama sigue siendo hombre</li>
-                <li>Tu mama sigue siendo hombre</li>
-            </ol>
+            <h2>Divs</h2>
+            <p>Los divs son utilizados para dividir los componentes de la pagina en bloques.</p>
+            
+            <h2>Span</h2>
+            <p>Cambiar el <span style="color:blue">color </span> de un elemento en linea.</p>
 
-            <h1>Imagenes</h1>
-            <img src="../Images/download.png">
-            <img src="http://placekitten.com/200/300">
+            <h2>Strong</h2>
+            <p><strong>Este es un texto importante!</strong></p>
+
+            <h2>Modificadores de texto</h2>
+            <p>'i' para <i>italicas</i>,<br> 'u' para <u>errores</u> , <br>'b' para <b>negritas</b> <br>y 'del' para <del>sea lo que sea esto.</del></p>
+            <p>*Usar del en lugar de strike*</p>
+            <p><small>'small' para un texto pequenio.</small></p>
+            <p>em para <em>enfatizar</em> palabras.</p>
+
+            <header>
+                <h2>Headers</h2>
+                <p>Los headers son utilizados para identificar el principio de la pagina, articulo, seccion o un segmento de la pagina.</p>
+            </header>
+
+            <section>
+                <h2>Section</h2>
+                <p>Sirver para definir una seccion en un documento.</p>
+            </section>
+
+            <article>
+                <h2>Article</h2>
+                <p>
+                    Esta creado para contener una unidad independiente de contenido, 
+                    Este elemento agrupa unidades de informacion relacionada entre si.
+                </p>
+            </article>
+
+            <aside>
+                <h2>Aside</h2>
+                <p>Normalmente se utiliza como adicional de informacion con respecto al contenido de la pagina. Por ejemplo para un twit.</p>
+            </aside>
+
+            <footer>
+                <h2>Footer</h2>
+                <p>El footer Normalmente se usa para los pies de pagina, por ejemplo para poner la informacion del autor.</p>
+            </footer>
+
+            <nav>
+                <h2>Nav</h2>
+                <p>Utilizado como contenedor para enlaces.</p>
+                <ul>
+                    <li><a href=”/inicio/”>Inicio</a></li>
+                    <li><a href=”tutoriales.html”>Tutoriales</a></li> 
+                    <li><a href=”referencias.html”>Referencia</a></li> 
+                    <li><a href=”/recursos.html”>Recursos</a></li>
+                    <li><a href=”contactos.php”>Contacto</a></li> 
+                </ul> 
+            </nav>
+
+            <h2>Imagenes</h2>
             <img src="https://via.placeholder.com/150">
 
-            <h2>Links</h2>
-            <a href="https://www.google.com" target="_blank">Google</a>
+            <h2>Br</h2>
+            <p>Se utiliza<br>para separar<br>una linea<br>en varias lineas.<br></p>
+
+            <h2>hr</h2>
+            <p>Normalmente se utiliza para los cambios de tema o topicos en la pagina HTML.</p>
+
+            <h2>Form</h2>
+            <p>Se utiliza para crear formularios con input del usuario.</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="nombre" name="apellido"><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+
+            <h2>Table</h2>
+            <p>Utilizado para crear tablas.</p>
+
+            <style>
+                table, th, td {
+                border: 1px solid black;
+            }
+            </style>
+
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Dinero</th>
+                  </tr>
+                  <tr>
+                    <td>Gabriel</td>
+                    <td>$0</td>
+                  </tr>
+            </table>
+
+            <h2>UL</h2>
+            <p>Utilizada para crear listas no ordenadas.</p>
+            <ul>
+                <li>Elemento</li>
+                <li>Elemento</li>
+            </ul>
+
+            <h2>OL</h2>
+            <p>Utilizada para crear listas ordenadas.</p>
+            <ol>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+            </ol>
         </div>
     </body>
 </html>
