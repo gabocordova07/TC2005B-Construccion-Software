@@ -1,0 +1,50 @@
+/* 
+Selectores: A que le aplico el estilo 
+Descriptores: El estilo
+ */
+
+*{
+    border: 1px solid black;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f0e6f0;
+}
+
+h1, h3{
+    color: rgb(172,0,255);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p{
+    color: #434757;
+    margin: 10px 10px 10px 10px;
+}
+
+em{
+    background-color: rgb(8,255,255);
+}
+
+#Inicio_pagina{
+    background-color: rgb(212, 212, 242);
+}
+
+.contenido{
+    background-color: rgb(221, 248, 248);
+}
+
+div{
+    background-color: #dee3fb;
+    margin: 5%;
+    padding: 10px;
+}
+
+button{
+    color: red;
+    background-color: rgb(235, 203, 203);
+    border-radius: 10px;
+}
