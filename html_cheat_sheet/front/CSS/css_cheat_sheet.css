@@ -48,3 +48,7 @@ button{
     background-color: rgb(235, 203, 203);
     border-radius: 10px;
 }
+
+ol{
+    list-style: lower-latin;
+}
