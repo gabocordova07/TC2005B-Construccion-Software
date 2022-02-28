@@ -10,38 +10,50 @@
     color: white;
     justify-content: space-between;
     padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .title{
     background-color: #b57c03;
     color: white;
-    padding: 10%;
-}
-
-#title{
     padding: 5%;
+    text-align: center;
 }
 
 #text{
+    text-align: left;
     padding: 5%;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .form{
     background-color: #1b2c42;
     color: white;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding: 5%;
+    gap: 25px;
+    padding: 2%;
 }
 
-.main{
+.images{
     display: flex;
+    flex-direction: row;
     background-color: white;
     justify-content: space-between;
 }
 
 .footer{
     background-color: #1b2c42;
+    text-align: center;
+    color: white;
+    padding: 1%;
 }
 
 .button{
@@ -50,7 +62,7 @@
 }
 
 .image{
-    display: flex;
-    width: 100px;
-    height: 100px;
+    text-align: center;
+    font-size: small;
+    padding: 5%;
 }
