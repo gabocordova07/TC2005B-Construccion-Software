@@ -177,10 +177,6 @@ class Vector
     getY(){return this.y};
     getZ(){return this.z};
     
-    setX(x){this.x = x};
-    setY(y){this.y = y};
-    setZ(z){this.z = z};
-    
     getVectorArray()
     {
         return [this.x, this.y, this.z];
@@ -225,6 +221,7 @@ class Vector
 function main() 
 {
     console.log("----------Encontrar primer caracter que no se repite----------");
+    
     console.log("First Array");
     console.log("abacddbec")
     firstNonrepeatChar("abacddbec");
@@ -237,6 +234,7 @@ function main()
     let array6 = [6,2,67,2,1,6];
     
     console.log("----------Bubble Sort----------");
+    
     console.log("Original array: " + array1);
     console.log("Original array: " + array2);
     console.log("Original array: " + array3);
@@ -408,6 +406,7 @@ function main()
     console.log(getGCD(100,200));
     
     console.log("----------Vectores ortognonales----------");
+    
     console.log("Vector 1: " + vector1.getVectorArray() + " Vector 2: " + vector2.getVectorArray());
     console.log("producto punto: " + dotProduct(vector1, vector2));
     checkIfOrthogonal(vector1, vector2);
@@ -439,7 +438,6 @@ function main()
     console.log(...newArray);
     console.log(...newArray2);
     console.log(...newArray3);
-    
 }
   
 main();
