@@ -18,9 +18,9 @@
     <div class="container" id="form">
         <p>2. Al dar click al siguiente botón, obtén el nombre y apellido de las siguientes cajas de texto, y agrega, después del botón, un elemento que tenga el nombre completo.</p>
         <form id="form1">
-            First name: <input type="text" name="fname" ><br>
+            First name: <input type="text" name="fname" ><br>o
             Last name: <input type="text" name="lname" ><br><br>
-        <input type="button" value="Submit" onClick="getFormvalue()">
+        <input type="button" value="Submit" onClick="getFormValue()">
         </form>
     </div>
 
@@ -39,9 +39,9 @@
         <input type="button" onclick="insertRow()" value="Insert row">
         <input type="button" onclick="insertColumn()" value="Insert column">
     </div>
-
+    
     <div class="container">
-        <p>4. Incluye dos cajas de input, para solicitar al usuario la posición de la fila y columna de la siguiente tabla, y otra para solicitar un texto. Al apretar el botón, actualiza el contenido de esa tabla en la posición que solicitaste, con la cadena de texto que solicitaste.</p>
+        <p>4. Incluye dos cajas de input, para solicitar al usuario la posición de la fila y columna de la siuiente tabla, y otra para solicitar un texto. Al apretar el botón, actualiza el contenido de esa tabla en la posición que solicitaste, con la cadena de texto que solicitaste.</p>
         <table id="myTable" border="1">
             <tr>
                 <td>Row1 cell1</td>
@@ -59,6 +59,9 @@
                 <td>Row3 cell3</td>
             </tr>
             </table><form><br>
+            <input type="text" placeholder="Row position" id="rowPos">
+            <input type="text" placeholder="Column Position" id="colPos">
+            <input type="text" placeholder="Text to insert" id="insertText">
             <input type="button" onclick="changeContent()" value="Change content">
     </div>
 
@@ -71,14 +74,14 @@
             <option>White</option>
             <option>Black</option>
             </select>
-            <input type="button" value="Add color">
-            <input type="button" value="Remove color">
+            <input type="button" value="Add color" onclick="addColor()">
+            <input type="button" value="Remove color" onclick="removeColor()">
         </form>
     </div>
 
     <div class="container">
         <p>6. Al poner el mouse encima de la siguiente imagen, genera dos números aleatorios entre 300 y 600 para el width y height de una imagen. Reemplaza la imagen de placeholder por otra similar con el tamaño random que generaste. El evento solo se dispara cuando pones el mouse en la imagen.</p>
-        <img src="http://placekitten.com/200/300">
+        <img id="img" src="http://placekitten.com/200/300" onmouseover="changeImgSize()">
     </div>
 </body>
 </html>

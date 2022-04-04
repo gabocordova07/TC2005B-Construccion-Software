@@ -1,0 +1,119 @@
+body
+{
+  margin: 0;
+  background-color: gray;
+  height: 100vh;
+}
+
+.grid-container
+{
+  display: grid;
+  margin: 10px;
+  height: 100vh;
+  grid-template-columns: repeat(6, 1fr);
+
+  gap: 10px;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  text-align: center;
+}
+
+.grid-item
+{
+  padding : 10px;
+  border : 1px white solid;
+  background-color: skyblue;
+  max-height: 20vh;
+  padding-bottom: 10vh;
+}
+
+.grid-item-1
+{
+  background-color: rgb(251, 115, 115);
+}
+
+.grid-item-2
+{
+  background-color: rgb(251, 142, 115);
+}
+
+.grid-item-3
+{
+  background-color: rgb(251, 187, 115);
+}
+
+.grid-item-4
+{
+  background-color: rgb(138, 251, 115);
+}
+
+.grid-item-5
+{
+  background-color: rgb(181, 251, 115);
+}
+
+.grid-item-6
+{
+  background-color: rgb(115, 251, 231);
+}
+
+.grid-item-7
+{
+  background-color: rgb(115, 251, 231);
+}
+
+.grid-item-8
+{
+  background-color: rgb(142, 115, 251);
+}
+
+.grid-item-9
+{
+  background-color: rgb(115, 251, 165);
+}
+
+.grid-item-10
+{
+  background-color: rgb(251, 224, 115);
+}
+
+.grid-item-11
+{
+  background-color: rgb(224, 251, 115);
+}
+
+.grid-item-12
+{
+  background-color: rgb(251, 115, 176);
+}
+
+.grid-item-13
+{
+  background-color: rgb(251, 115, 115);
+}
+
+.grid-item-14
+{
+  background-color: rgb(115, 251, 231);
+}
+
+.grid-item-15
+{
+  background-color: rgb(131, 115, 251);
+}
+
+.grid-item-16
+{
+  background-color: rgb(251, 115, 235);
+}
+
+.grid-item-17
+{
+  background-color: rgb(115, 251, 231);
+}
+
+.grid-item-18
+{
+  background-color: rgb(251, 169, 115);
+}

@@ -1,0 +1,50 @@
+body
+{
+  margin: 0;
+  background-color: gray;
+  height: 100vh;
+}
+
+.grid-container
+{
+  text-align: center;
+  display: grid;
+  margin: 10px;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 10px;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.grid-item
+{
+  padding : 10px;
+  border : 1px white solid;
+  background-color: skyblue;
+  min-height: 0;
+}
+
+.grid-item-1
+{
+  background-color: rgb(251, 115, 115);
+  grid-column: 1 / span 2;
+}
+
+.grid-item-2
+{
+  background-color: rgb(251, 142, 115);
+  grid-row: span 2;
+}
+
+.grid-item-3
+{
+  background-color: rgb(92, 203, 138);
+}
+
+.grid-item-4
+{
+  background-color: rgb(115, 251, 163);
+}

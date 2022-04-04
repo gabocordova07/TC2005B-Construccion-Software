@@ -1,0 +1,55 @@
+body
+{
+  background-color: gray;
+}
+
+.grid-container
+{
+  text-align: center;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 10px;
+  justify-content: stretch;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.grid-item
+{
+  padding : 10px;
+  background-color: rgb(235, 167, 135);
+  min-height: 0;
+}
+
+.grid-item-1
+{
+  grid-column: span 3;
+  background-color: rgb(251, 172, 115);
+  height: 20vh;
+}
+
+.grid-item-2
+{
+  background-color: rgb(115, 251, 151);
+  align-self: stretch;
+  height: 60vh;
+
+}
+
+.grid-item-3
+{
+  background-color: rgb(251, 126, 115);
+  grid-column: 2 / span 2;
+  align-self: stretch;
+  height: 60vh;
+
+}
+
+.grid-item-4
+{
+  background-color: rgb(153, 227, 100);
+  grid-column: span 3;
+  height: 20vh;
+}

@@ -1,0 +1,94 @@
+body
+{
+  margin: 0;
+  background-color: gray;
+  height: 100vh;
+}
+
+.grid-container
+{
+  text-align: center;
+  display: grid;
+  margin: 10px;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+  gap: 10px;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.grid-item
+{
+  padding : 10px;
+  border : 1px white solid;
+  background-color: skyblue;
+  min-height: 0;
+}
+
+.grid-item-1
+{
+  background-color: rgb(251, 115, 115);
+  grid-column: 1 / span 2;
+}
+
+.grid-item-2
+{
+  background-color: rgb(251, 142, 115);
+  grid-column: 3;
+}
+
+.grid-item-3
+{
+  background-color: rgb(251, 187, 115);
+  grid-column: 4;
+}
+
+.grid-item-4
+{
+  background-color: rgb(115, 192, 251);
+  grid-column: 1;
+}
+
+.grid-item-5
+{
+  background-color: rgb(115, 217, 251);
+  grid-column: 2;
+}
+
+.grid-item-6
+{
+  background-color: rgb(115, 251, 231);
+  grid-column: 3;
+}
+
+.grid-item-7
+{
+  background-color: rgb(115, 140, 251);
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+}
+
+.grid-item-8
+{
+  background-color: rgb(115, 251, 231);
+  grid-column: 3;
+}
+
+.grid-item-9
+{
+  background-color: rgb(115, 251, 231);
+}
+
+.grid-item-10
+{
+  background-color: rgb(115, 251, 231);
+}
+
+.grid-item-11
+{
+  background-color: rgb(115, 251, 231);
+  grid-column: 1 / span 3;
+}
